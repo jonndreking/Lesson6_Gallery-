@@ -8,8 +8,17 @@ Questions:
 
 1.  Name two methods you can use to add a node to the DOM tree, and explain the difference between them.
 
+existingNode.cloneNode(true | false) - duplicates an existing node 
 
+parentNode.appendChild(childNode) - creates a new element and attaches it to the element of the id value specified 
 
 
 
 2.  List the six main objects that make up the browser object model. 
+
+window.navigator	Information about the browser itself.
+window.screen	The user's screen.
+window.history	URLs visited by the user.
+window.location	The current URL.
+window.framename	A frame that occupies the browser window. 
+window.document	The document appearing in the main browser window.
